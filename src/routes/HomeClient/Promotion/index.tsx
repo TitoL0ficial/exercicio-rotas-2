@@ -1,11 +1,9 @@
-import Button from "../../components/Button";
-import Header from "../../components/Header";
-import PageCard from "../../components/PageCard";
+import { Link } from "react-router-dom";
+import Button from "../../../components/Button";
+import PageCard from "../../../components/PageCard";
 
 export default function Promotion() {
     return(
-        <>
-        <Header/>
         <main>
             <section>
                 <div className="container">
@@ -13,11 +11,12 @@ export default function Promotion() {
                         <PageCard title="Página de promoção"/>
                     </div>
                     <div className="dflex">
-                        <Button text="Quero participar"/>
+                        <Link to="/subscription">
+                            <Button text="Quero participar"/>
+                        </Link>                    
                     </div>
                 </div>
             </section>
         </main>
-        </>
     );
 }

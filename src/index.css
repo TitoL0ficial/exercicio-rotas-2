@@ -29,3 +29,10 @@ main {
 .dflex {
     display: flex;
 }
+
+.section-title {
+    font-size: 32px;
+    color: #6E6E6E;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
