@@ -1,0 +1,12 @@
+.page-card {
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.page-card h2 {
+    color: #6F6F6F;
+    font-size: 20px;
+}
